@@ -1,6 +1,6 @@
 hrs = raw_input("Enter Hours:")
 h = float(hrs)
-rate = raw_input("Enter PayRate:")
+rate = raw_input("Enter PayRate: ")
 r = float(rate)
 grosspay = h * r
 if h <= 40 :
