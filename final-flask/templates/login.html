@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h1>Please login</h1>
+<br>
+<form class="form-signin" role="form" method="post" action="">
+<input type="text" placeholder="Username" name="username" value="{{request.form.username }}"></input>
+<input type="password" placeholder="Password" name="password" value="{{request.form.password }}"></input>
+<button class="btn btn-sm btn-success" type="submit" value="Login">Login</button>
+</form>
+
+{% endblock %}

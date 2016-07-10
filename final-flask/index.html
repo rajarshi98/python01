@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Pick a Date</title>
+
+  <meta charset="utf-8">
+ 
+        <link rel='stylesheet' type='text/css' href='stylesheet.css'/>
+        <link rel='stylesheet' type='text/css' href='http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css'/>
+        <script type='text/javascript' src='script.js'></script>
+        <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+	</head>
+	<body>
+		<div id="header">
+			<h2><br/>Select a Destination</h2>
+		</div>
+        <div class="left">
+            <p>Departing: <input type="text" id="departing"></p>
+        </div>
+        <div class="right">
+            <p>Returning: <input type="text" id="returning"></p>
+        </div><br/>
+        <div id="main">
+        	<p>Destination: <select id="dropdown">
+				<option value="newyork">New York</option>
+				<option value="london">London</option>
+				<option value="beijing">Beijing</option>
+				<option value="moscow">Moscow</option>
+			</select></p>
+			<button>Submit</button>
+        </div>
+	</body>
+</html>
